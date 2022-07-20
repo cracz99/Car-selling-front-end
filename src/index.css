@@ -11,3 +11,167 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main
+{
+  background-color: aqua;
+}
+
+div>p>.link
+{
+  color:white;
+  text-decoration: none;
+}
+div>p>.link:hover{
+  color:yellow;
+}
+.hamburger{
+  position:absolute;
+    top:5%;
+    width:2rem;
+    height:2rem;
+    display:flex;
+    justify-content:space-around;
+    flex-flow:column nowrap;
+    z-index:10
+}
+#n
+{
+  display: none;
+}
+#y
+{
+  
+  top:15%;
+  width: 100%;
+  z-index: 10;
+  background-image: linear-gradient(331deg, rgb(247 231 231), rgb(255, 255, 255));
+}
+
+.burger
+{
+  width:2rem;
+  height:0.25rem;
+  border-radius:10px;
+  background-color: black;
+  /* transform-origin: 1px; */
+  transition: all 0.3s linear;
+}
+#item
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#item
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  min-height: 300px;
+  /* justify-Content:'center';
+  height:'30vh';
+  min-width:'400px'; */
+}
+#right
+{
+  border:1px solid black;
+  width: 30%;
+  position: relative;
+}
+#left
+{
+  border:1px solid black;
+  width: 15%;
+  background: transparent;
+}
+#left >img{
+  width:90%;
+  border-radius: 5%;
+  margin:3%;
+}
+#item-details
+{
+  position: absolute;
+  top:10%;
+  left:40%;
+}
+#item-footer
+{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top:80%;
+  left:40%;
+}
+
+@media (max-width:1024px) and (min-width:768px )
+{
+
+}
+@media (max-width:767px)
+{
+  .hamburger{
+    position:absolute;
+    top:5%;
+    width:2rem;
+    height:2rem;
+    display:flex;
+    justify-content:space-around;
+    flex-flow:column nowrap;
+    z-index:10
+  }
+  
+  #n
+  {
+    display: none;
+  }
+  #y
+  {
+    
+    top:15%;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(331deg, rgb(247 231 231), rgb(255, 255, 255));
+  }
+  #item
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  min-height: 300px;
+  /* justify-Content:'center';
+  height:'30vh';
+  min-width:'400px'; */
+}
+#right
+{
+  border:1px solid black;
+  width: 50%;
+  position: relative;
+}
+#left
+{
+  border:1px solid black;
+  width: 40%;
+  background: transparent;
+}
+#left >img{
+  width:90%;
+  border-radius: 5%;
+  margin:3%;
+}
+#item-details
+{
+  position: absolute;
+  top:10%;
+  left:40%;
+}
+#item-footer
+{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top:70%;
+  left:40%;
+}
+}
