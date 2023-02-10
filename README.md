@@ -1,3 +1,4 @@
+To find how the project looks, look into the pics pdf ;)
 
 # Getting Started with Create React App
 
